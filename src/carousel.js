@@ -129,6 +129,10 @@ const Carousel = createClass({
     }
   },
 
+  getCurrentSlideIndex() {
+    return this.state.currentSlide
+  },
+
   componentWillMount() {
     this.setInitialDimensions();
   },
